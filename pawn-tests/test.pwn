@@ -8,5 +8,6 @@
 main() { }
 
 Test:RunTest() {
-	ASSERT(Foo() == 1);
+	Foo("string");
+	Bar("minum kopi");
 }

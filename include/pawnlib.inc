@@ -7,5 +7,3 @@
 	#endinput
 #endif
 #define _pawnlib_included
-
-native Foo();

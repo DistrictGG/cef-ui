@@ -6,7 +6,7 @@ use samp::initialize_plugin;
 
 initialize_plugin!(
     natives: [
-        CefUi::foo
+        
     ],
     {
         samp::plugin::enable_process_tick();
