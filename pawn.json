@@ -1,0 +1,37 @@
+{
+	"user": "Galang Indra",
+	"repo": "cef-ui",
+	"entry": "pawn-tests/test.pwn",
+	"output": "gamemodes/test.amx",
+	"dependencies": ["sampctl/pawn-stdlib"],
+	"dev_dependencies": ["pawn-lang/YSI-Includes@5.x"],
+	"local":true,
+	"include_path": "include",
+	"builds": [
+		{
+			"name": "test",
+			"includes": ["./include"]
+		}
+	],
+	"runtime": {
+		"rcon_password": "|%GuRd324$\u0026|",
+		"port": 7777,
+		"plugins":["cef_ui"],
+		"gamemodes":["test"],
+		"hostname": "test",
+		"maxplayers": 32,
+		"mode": "y_testing"
+	},
+	"resources": [
+		{
+			"name": "cef-ui.so",
+			"platform": "linux",
+			"archive": false
+		},
+		{
+			"name": "cef-ui.dll",
+			"platform": "windows",
+			"archive": false
+		}
+	]
+}
